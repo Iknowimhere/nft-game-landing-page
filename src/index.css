@@ -32,7 +32,7 @@ html {
 .corner-border {
   position: relative;
   display: inline-block;
-  padding: 0.25rem 1rem;
+  padding: 0 1rem;
 }
 
 .corner-border .corner-tl,
@@ -84,6 +84,3 @@ html {
   }
 }
 
-.animate-scroll {
-  animation: scroll 20s linear infinite;
-}
