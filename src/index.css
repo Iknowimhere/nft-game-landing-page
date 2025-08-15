@@ -1,1 +1,76 @@
-@import "tailwindcss";
+@import url('https://fonts.cdnfonts.com/css/voltec');
+@import url('https://fonts.cdnfonts.com/css/orbitron');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+  font-family: 'Atomos';
+  src: url('./assets/Atomos-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Atomos-Outline';
+  src: url('./assets/Atomos-Outline.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Atomos-Shadow';
+  src: url('./assets/Atomos-Shadow.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import 'tailwindcss';
+
+html {
+  font-family: 'Voltec', sans-serif;
+}
+
+.corner-border {
+  position: relative;
+  display: inline-block;
+  padding: 0.25rem 1rem;
+}
+
+.corner-border .corner-tl,
+.corner-border .corner-tr,
+.corner-border .corner-bl,
+.corner-border .corner-br {
+  position: absolute;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #d1d5db;
+}
+
+.corner-border .corner-tl {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.corner-border .corner-tr {
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+}
+
+.corner-border .corner-bl {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+}
+
+.corner-border .corner-br {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+
