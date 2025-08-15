@@ -81,7 +81,7 @@ const LeaderSection = () => {
         </h2>
 
         {/* Leader Table */}
-        <div className='bg-transparent border-2 border-white rounded-t-lg rounded-b-lg overflow-hidden p-4'>
+        <div className='bg-transparent border-2 border-white rounded-t-lg rounded-b-lg overflow-hidden p-4 mb-16'>
           {/* Leader rows */}
           {[
             { image: leader1, name: 'REALTECH', skulls: 17, sol: 30 },
