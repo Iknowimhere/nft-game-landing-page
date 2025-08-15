@@ -1,10 +1,11 @@
-import HeroSection from "./components/HeroSection"
+import HeroSection from './components/HeroSection';
+import Landing from './pages/Landing';
 
 const App = () => {
   return (
     <div>
-      <HeroSection />
+      <Landing />
     </div>
-  )
-}
-export default App
+  );
+};
+export default App;
